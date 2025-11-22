@@ -141,10 +141,12 @@ Revisión de logs:
 docker logs web_grupo4
 
 === Resumen General del Proyecto ===
-
-Fase	Objetivo	Resultado
-Preparación del Entorno	Configurar usuarios, permisos, estructura	Servidor base organizado y funcional
-Automatización y Monitoreo	Crear reportes automáticos del sistema	Script operativo y cron ejecutando cada 30 min
-Control de Versiones	Administrar cambios con Git y GitHub	Repositorio completo y documentado
-Docker	Instalar y habilitar contenedores	Docker funcional y probado
-Servidor Web	Desplegar Nginx en contenedor	Página accesible en localhost:8080
+____________________________________________________________________________________________________________________________
+| Fase                        | Objetivo                                  | Resultado                                      |
+|-----------------------------|-------------------------------------------|------------------------------------------------|
+| Preparación del Entorno     | Configurar usuarios, permisos, estructura	| Servidor base organizado y funcional           |
+| Automatización y Monitoreo	| Crear reportes automáticos del sistema	  | Script operativo y cron ejecutando cada 30 min |
+| Control de Versiones        | Administrar cambios con Git y GitHub	    | Repositorio completo y documentado             |
+| Docker	                    |Instalar y habilitar contenedores	        | Docker funcional y probado                     |
+| Servidor Web	              | Desplegar Nginx en contenedor             |	Página accesible en localhost:8080             |
+|_____________________________|___________________________________________|________________________________________________|
