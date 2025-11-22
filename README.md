@@ -141,6 +141,7 @@ Revisión de logs:
 docker logs web_grupo4
 
 === Resumen General del Proyecto ===
+
 Fase	Objetivo	Resultado
 Preparación del Entorno	Configurar usuarios, permisos, estructura	Servidor base organizado y funcional
 Automatización y Monitoreo	Crear reportes automáticos del sistema	Script operativo y cron ejecutando cada 30 min
