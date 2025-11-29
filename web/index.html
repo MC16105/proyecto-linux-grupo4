@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor Web Grupo 4</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background: #1e73be;
+            color: white;
+            padding: 25px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .tech-logos {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        .tech-logos img {
+            height: 80px;
+        }
+
+        h2 {
+            color: #1e73be;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background: #eee;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Servidor Web del Grupo 4</h1>
+</header>
+
+<div class="container">
+    <h2>Ejercicio 5: Servidor Nginx Containerizado</h2>
+
+    <p>Este servidor web forma parte del proyecto académico donde se implementa un servicio web usando 
+    <strong>Docker</strong> y <strong>Nginx</strong>. El objetivo es comprender el despliegue de aplicaciones 
+    en contenedores y la configuración de un servidor web minimalista.</p>
+
+    <!-- Logos -->
+    <div class="tech-logos">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Logo Linux">
+        <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Logo Docker">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg" alt="Logo Nginx">
+    </div>
+
+    <h2>Tecnologías utilizadas</h2>
+    <ul>
+        <li><strong>Nginx:</strong> Servidor web utilizado para servir la página.</li>
+        <li><strong>Docker:</strong> Contenerización del servidor y despliegue portátil.</li>
+        <li><strong>Linux:</strong> Sistema operativo base del entorno.</li>
+        <li><strong>HTML5:</strong> Estructura de la página web.</li>
+    </ul>
+
+    <h2>Descripción del Proyecto</h2>
+    <p>El contenedor está configurado para servir este archivo <code>index.html</code> como contenido principal.  
+    Además, se trabajó en la creación del Dockerfile, construcción de la imagen y ejecución del contenedor 
+    mapeando el puerto del servidor Nginx.</p>
+
+    <p>Este entorno demuestra el flujo básico de creación y despliegue de servicios web usando tecnologías modernas.</p>
+</div>
+
+<footer>
+    © Grupo 4 – Proyecto Docker + Nginx
+</footer>
+
+</body>
+</html>
